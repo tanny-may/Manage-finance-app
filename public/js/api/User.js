@@ -13,7 +13,7 @@ class User {
 
   /** Возвращает текущего авторизованного пользователя из локального хранилища */
   static current() {
-    localStorage.getItem('user');
+    return localStorage.getItem('user');
   }
 
   /** Получает информацию о текущем авторизованном пользователе. */
@@ -59,8 +59,9 @@ class User {
       if (response && response.success) {
         this.setCurrent(response.user)
         callback(null, response)
-      }
-      callback(response, null);
+      } else {
+        callback(response, null)
+      };
     }})
   }
 
@@ -73,13 +74,10 @@ class User {
       if (response && response.success) {
         this.unsetCurrent()
         callback(null, response)
+      } else {
+        callback(response, null);
       }
-      callback(response, null);
     }})
   }
 }
 
-
-User.setCurrent({
-  'foo': 'bar',
-})
