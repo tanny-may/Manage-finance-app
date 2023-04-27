@@ -1,0 +1,400 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "id": "uphpkk26slgukhysb",
+      "name": "dima",
+      "email": "demo@demo"
+    },
+    {
+      "id": "uphpkk5xslguki2du",
+      "name": "tanya",
+      "email": "demo@demo"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    },
+    {
+      "name": "sdggsd",
+      "user_id": "1",
+      "id": "uphpkkjt0lgxk58zf"
+    },
+    {
+      "name": "account",
+      "user_id": "1",
+      "id": "uphpkkbmolgxl6vh9"
+    },
+    {
+      "name": "Дмитрий",
+      "user_id": "1",
+      "id": "uphpkk4bglgxlbibx"
+    },
+    {
+      "name": "new",
+      "user_id": "1",
+      "id": "uphpkk99wlgxlq026"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "1",
+      "created_at": "2019-09-15 10:24:02",
+      "id": "1",
+      "name": "Кредит",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-17 13:27:02",
+      "id": "10",
+      "name": "На стволы",
+      "sum": 6000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-12-27 13:27:02",
+      "id": "11",
+      "name": "Прибыль с банка",
+      "sum": 1500000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "12",
+      "name": "Прибыль с магазина",
+      "sum": 300000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "13",
+      "name": "Подарок сизого",
+      "sum": 20000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-15 13:27:02",
+      "id": "14",
+      "name": "На охрану",
+      "sum": 60000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "15",
+      "name": "На бумер",
+      "sum": 300000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "uphpkkfgclgxjzrtb",
+      "type": "income",
+      "name": "asgfasg1",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:28:48.910Z"
+    },
+    {
+      "id": "uphpkk1gwlgxjztan",
+      "type": "income",
+      "name": "asgfasg1",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:28:50.830Z"
+    },
+    {
+      "id": "uphpkkevwlgxjzuqf",
+      "type": "income",
+      "name": "asgfasg1",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:28:52.694Z"
+    },
+    {
+      "id": "uphpkkkv0lgxjzvbz",
+      "type": "income",
+      "name": "asgfasg1",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:28:53.470Z"
+    },
+    {
+      "id": "uphpkkkv0lgxjzvcx",
+      "type": "income",
+      "name": "asgfasg1",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:28:53.505Z"
+    },
+    {
+      "id": "uphpkkkv0lgxjzvdk",
+      "type": "income",
+      "name": "asgfasg1",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:28:53.528Z"
+    },
+    {
+      "id": "uphpkkkv0lgxjzve5",
+      "type": "income",
+      "name": "asgfasg1",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:28:53.549Z"
+    },
+    {
+      "id": "uphpkkj2wlgxk3yvn",
+      "type": "income",
+      "name": "afasf",
+      "sum": 123,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:32:04.690Z"
+    },
+    {
+      "id": "uphpkkik4lgxk4lgt",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 222,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:32:33.965Z"
+    },
+    {
+      "id": "uphpkkbfolgxk5hzh",
+      "type": "income",
+      "name": "asf",
+      "sum": 3000,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:33:16.108Z"
+    },
+    {
+      "id": "uphpkkgywlgxl1tl7",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:58:24.138Z"
+    },
+    {
+      "id": "uphpkk5z8lgxl21hl",
+      "type": "expense",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:58:34.376Z"
+    },
+    {
+      "id": "uphpkkecslgxl3bpy",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T10:59:34.293Z"
+    },
+    {
+      "id": "uphpkkbv8lgxl72ok",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T11:02:29.203Z"
+    },
+    {
+      "id": "uphpkk930lgxlaoo3",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T11:05:17.666Z"
+    },
+    {
+      "id": "uphpkkg10lgxlb9lo",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T11:05:44.795Z"
+    },
+    {
+      "id": "uphpkk26glgxlbeso",
+      "type": "expense",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T11:05:51.527Z"
+    },
+    {
+      "id": "uphpkkniclgxlbtt2",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T11:06:10.982Z"
+    },
+    {
+      "id": "uphpkkh64lgxlhrma",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T11:10:48.081Z"
+    },
+    {
+      "id": "uphpkknzglgxlikri",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T11:11:25.853Z"
+    },
+    {
+      "id": "uphpkkhx4lgxlkud5",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T11:13:11.608Z"
+    },
+    {
+      "id": "uphpkkkcolgxlsh0e",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-26T11:19:07.549Z"
+    },
+    {
+      "id": "uphpkkfx4lgz13soa",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-27T11:15:36.297Z"
+    },
+    {
+      "id": "uphpkk8slgz13yjy",
+      "type": "expense",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-27T11:15:43.917Z"
+    },
+    {
+      "id": "uphpkkk5clgz1rub3",
+      "type": "income",
+      "name": "test",
+      "sum": 111111,
+      "user_id": "1",
+      "created_at": "2023-04-27T11:34:18.158Z"
+    },
+    {
+      "id": "uphpkk7polgz22w9u",
+      "type": "income",
+      "name": "test",
+      "sum": 111111,
+      "user_id": "1",
+      "created_at": "2023-04-27T11:42:53.921Z"
+    },
+    {
+      "id": "uphpkko0klgz28tax",
+      "type": "income",
+      "name": "test",
+      "sum": 111111,
+      "user_id": "1",
+      "created_at": "2023-04-27T11:47:30.008Z"
+    },
+    {
+      "id": "uphpkkj3slgz5idut",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "user_id": "1",
+      "created_at": "2023-04-27T13:18:55.396Z"
+    },
+    {
+      "id": "uphpkk95glgz5n6pb",
+      "type": "income",
+      "name": "Дмитрий",
+      "sum": 1223,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-04-27T13:22:39.406Z"
+    }
+  ]
+}

@@ -11,7 +11,12 @@ class Modal {
 
   /** При нажатии на элемент с data-dismiss="modal" должен закрыть текущее окно (с помощью метода Modal.onClose) */
   registerEvents() {
-    this.element.querySelector('[data-dismiss="modal"]').addEventListener('click', this.onClose);
+    let dismissBtns = this.element.querySelectorAll('[data-dismiss="modal"]');
+    for (let dismissBtn of dismissBtns) {
+      dismissBtn.addEventListener('click', () => {
+        this.onClose();
+      })
+    }
   }
 
   /** Срабатывает после нажатия на элементы, закрывающие окно. Закрывает текущее окно (Modal.close()) */
@@ -23,7 +28,7 @@ class Modal {
     this.element.style.display = 'block';
   }
   /** Закрывает окно: удаляет CSS-свойство display */
-  close(){
+  close() {
     this.element.style.removeProperty('display');
   }
 }

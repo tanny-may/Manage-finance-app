@@ -26,6 +26,10 @@ class AsyncForm {
     for (let input of inputs) {
       result[input.name] = input.value;
     }
+    let selects = this.element.querySelectorAll('select');
+    for (let select of selects) {
+      result[select.name] = select.value;
+    }
     return result;
   }
 

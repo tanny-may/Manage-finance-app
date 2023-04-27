@@ -21,7 +21,6 @@ class Sidebar {
   /** При нажатии на кнопку входа, показывает окно входа (через найденное в App.getModal) При нажатии на кнопку регистрации показывает окно регистрации При нажатии на кнопку выхода вызывает User.logout и по успешному выходу устанавливает App.setState( 'init' ) */
   static initAuthLinks() {
     let login = document.querySelector('.menu-item_login');
-
     login.addEventListener('click', () => {
       App.getModal('login').open()
     })

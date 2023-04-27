@@ -8,4 +8,3 @@ class Account extends Entity {
   }
 }
 
-Account.get('1', (error, resp) => console.log(error, resp));
